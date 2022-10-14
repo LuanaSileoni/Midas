@@ -1,0 +1,136 @@
+@charset "UTF-8";
+.header {
+  width: 100%;
+  padding: 0px 5%;
+  padding-top: 10px;
+  z-index: 1;
+  background-color: #000000;
+  border-bottom: 0.5px solid rgb(255, 255, 255);
+}
+.header .header__h2 {
+  margin-top: 10px;
+  display: inline-block;
+  color: #ebb019;
+  font-size: 40px;
+  font-family: "Comfortaa";
+}
+.header .header__nav {
+  float: right;
+  margin-top: 15px;
+}
+.header .header__nav .header__nav__ul {
+  text-decoration: none;
+  list-style-type: none;
+}
+.header .header__nav .header__nav__ul .header__nav__ul__li {
+  display: inline-block;
+  text-decoration: none;
+  text-align: end;
+}
+.header .header__nav .header__nav__ul .header__nav__ul__li .header__nav__ul__li__a {
+  display: inline-block;
+  text-decoration: none;
+  color: #ebb019;
+  padding: 8px;
+  width: 170px;
+  text-align: center;
+  font-family: "Poppins";
+}
+.header .header__nav .header__nav__ul .header__nav__ul__li .header__nav__ul__li__a:hover {
+  background-color: #ebb019;
+  color: #000000;
+  border-radius: 5px;
+}
+
+.navbar-toggler {
+  background-color: #ebb019;
+}
+
+/* Sección 3 Diálogo */
+.main__section3 {
+  display: grid;
+}
+.main__section3 .main__section3__div {
+  display: grid;
+}
+.main__section3 .main__section3__div .main__section3__div__p {
+  color: rgb(255, 255, 255);
+}
+.main__section3 .main__section3__div .main__section3__div__img {
+  width: 10%;
+}
+.main__section3 .main__section3__div .main__section3__div__form {
+  color: rgb(255, 255, 255);
+}
+.main__section3 .main__section3__div .main__section3__div__label {
+  color: rgb(255, 255, 255);
+}
+
+/* Sección 2 Entendemos */
+.main__section2 {
+  display: grid;
+}
+.main__section2 .main__section2__h2 {
+  text-align: center;
+  font-size: "Roboto";
+  color: rgb(255, 255, 255);
+}
+.main__section2 .main__section2__div {
+  display: grid;
+}
+.main__section2 .main__section2__div .main__section2__div__img {
+  width: 15%;
+}
+.main__section2 .main__section2__div .main__section2__div__p {
+  font-size: "Roboto";
+  color: rgb(255, 255, 255);
+}
+
+/* Sección 1 Portada */
+.main {
+  background-color: rgb(0, 0, 0);
+}
+.main .main__section1 .main__section1__div__contenedor {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+}
+.main .main__section1 .main__section1__div__contenedor .main__section1__div__h1__centrado {
+  color: rgb(255, 255, 255);
+  font-family: "Roboto";
+  font-size: 60px;
+  text-align: initial;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.main .main__section1 .main__section1__div__contenedor .main__section1__div__img {
+  width: 100%;
+  height: 400px;
+}
+
+.main__footer {
+  display: inline-block;
+  align-content: center;
+  width: 100%;
+  background-color: #000000;
+  color: #ebb019;
+  border-top: 0.5px solid rgb(255, 255, 255);
+}
+.main__footer .main__footer__article {
+  display: inline-block;
+  text-align: center;
+  color: aliceblue;
+}
+.main__footer .main__footer__article .main__footer__article__a {
+  display: inline-block;
+  list-style-type: none;
+  text-decoration: none;
+  color: #ebb019;
+}
+.main__footer .main__footer__article .main__footer__article__h3 {
+  display: inline-block;
+  font-family: "Roboto";
+  color: #ebb019;
+}/*# sourceMappingURL=styles.css.map */

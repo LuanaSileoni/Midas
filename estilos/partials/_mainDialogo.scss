@@ -1,0 +1,20 @@
+/* Sección 3 Diálogo */
+
+.main__section3{
+    display: grid;
+    .main__section3__div{
+        display: grid;
+        .main__section3__div__p{
+            color: $color-blanco;
+        }
+        .main__section3__div__img{
+            width: 10%;
+        }
+        .main__section3__div__form{
+            color: $color-blanco;
+        }
+        .main__section3__div__label{
+            color: $color-blanco;
+        }
+    }
+}

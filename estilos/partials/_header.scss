@@ -1,0 +1,46 @@
+.header{
+    width: 100%;
+    padding: 0px 5%;
+    padding-top: 10px;
+    z-index: 1;
+    background-color: $color-negro;
+    border-bottom: 0.5px solid $color-blanco;
+    .header__h2{
+        margin-top: 10px;
+        display: inline-block;
+        color: $color-amarillo;
+        font-size: 40px;
+        font-family: 'Comfortaa';
+    }
+    .header__nav{
+        float: right;
+        margin-top: 15px;
+        .header__nav__ul{
+            text-decoration: none;
+            list-style-type: none;
+            .header__nav__ul__li{
+                display: inline-block;
+                text-decoration: none;
+                text-align: end;
+                .header__nav__ul__li__a{
+                    display: inline-block;
+                    text-decoration: none;
+                    color: $color-amarillo;
+                    padding: 8px;
+                    width: 170px;
+                    text-align: center;
+                    font-family: 'Poppins';
+                    &:hover{
+                        background-color: $color-amarillo;
+                        color: $color-negro;
+                        border-radius: 05px;
+                    }
+                  
+                }
+            }
+        }
+    }
+}
+.navbar-toggler{
+    background-color: $color-amarillo;
+}

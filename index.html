@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta description="">
+    <meta keywords="">
+    <title>Midas</title>
+    <!-- Estilo CSS -->
+    <link rel="stylesheet" href="./estilos/styles.css">
+    <!-- Linkeo a Font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <!-- Fuentes-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Poppins:wght@300&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <!-- Favicon -->
+    <link rel="icon" href="./fivecon.ico">
+</head>
+<body>
+    <!-- Navegación -->
+    <header class="header">
+        <h2 class="header__h2">Midas</h2>
+        <nav class="header__nav  navbar navbar-expand-sm">
+            <div class="container-fluid">
+                <button class="navbar-toggler button p-1 mb-2 bg-warning text-dark"" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse justify-content-around" id="navbarNav">
+                    <ul class="header__nav__ul  navbar-nav">
+                        <li class="header__nav__ul__li nav-item">
+                            <a class="header__nav__ul__li__a nav-link" href="#salto">Home</a>
+                        </li>
+                        <li class="header__nav__ul__li nav-item">
+                            <a class="header__nav__ul__li__a nav-link" href="#teentendemos">¡Te entendemos!</a>
+                        </li>
+                        <li class="header__nav__ul__li nav-item">
+                            <a class="header__nav__ul__li__a nav-link" href="#charlemos">Charlemos</a>
+                        </li>
+                        <li class="header__nav__ul__li nav-item">
+                            <a class="header__nav__ul__li__a nav-link" href="#anotate">Anotate</a>
+                        </li>
+                    </ul>
+                  </div>
+            </div>
+        </nav>
+    </header>
+    <main class="main">
+        <!-- Sección 1 Portada-->
+        <section class="main__section1">
+            <div class="main__section1__div__contenedor">
+                <h1 class="main__section1__div__h1__centrado">Mejoremos tus finanzas</h1>
+                <img class="main__section1__div__img" src="./estilos/imagenes/portada.jpg" alt="Imagen de dinero">
+            </div>
+        </section>
+        <!-- Sección 2 -->
+        <section  class="main__section2" id="teentendemos">
+            <h2 class="main__section2__h2">¡Te entendemos!</h2>
+            <div class="main__section2__div">
+                <img class="main__section2__div__img" src="./estilos/imagenes/casa-propia.jpg" alt="Imagen de pareja">
+                <p class="main__section2__div__p">¿Cómo vamos a hacer para comprar nuestra casa propia?</p>
+            </div>
+            <div class="main__section2__div">
+                <img class="main__section2__div__img" src="./estilos/imagenes/auto-nuevo.jpg" alt="Imagen de hombre">
+                <p class="main__section2__div__p">Voy a comprar mi primer auto, pero ¿cómo hago?</p>
+            </div>
+            <div class="main__section2__div">
+                <img class="main__section2__div__img" src="./estilos/imagenes/educacion-hijos.jpg" alt="Imagen de pareja">
+                <p class="main__section2__div__p">¿Cómo vamos a pagar la educación de nuestros hijos?</p>
+            </div>
+        </section>
+        <!-- Sección 3 Diálogo-->
+        <section class="main__section3">
+            <div class="main__section3__div" id="charlemos">
+                <p class="main__section3__div__p">Hola, soy el Rey Midas y ella la Princesa Zoe. Nosotros podemos ayudarte!!</p>
+                <img class="main__section3__div__img" src="./estilos/imagenes/king.png" alt="Rey Midas">
+            </div>
+            <div class="main__section3__div">
+                <p class="main__section3__div__p">Sí, estamos creando una aplicación donde podes registrar todos tus gastos y movimientos. Toda la información va a estar muy segura, el ejército real la proteje.</p>
+                <img class="main__section3__div__img" src="./estilos/imagenes/queen.png" alt="Princesa Zoe">
+            </div>
+            <div class="main__section3__div">
+                <p class="main__section3__div__p">Además, sabemos mucho sobre el dinero. Te vamos a dar recomendaciones para que también aprendas!</p>
+                <p class="main__section3__div__p">Y como la motivación es importante, podés configurar tus objetivos así te ayudamos a alcanzarlos.</p>
+                <img class="main__section3__div__img" src="./estilos/imagenes/king.png" alt="Rey Midas">
+            </div>
+            <div class="main__section3__div" id="anotate">
+                <p class="main__section3__div__p">En unos meses, un grupo selecto de participantes, podrá acceder anticipadamente a la aplicación.</p>
+                <p class="main__section3__div__p">¿Te gustaría postularte? Necesitamos tu nombre y apellido.</p>
+                <form class="main__section3__div__form">
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label"></label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ej: Pepito Juancho Rodríguez">
+                        <div id="emailHelp" class="form-text"></div>
+                    </div>
+                </form>
+                <img class="main__section3__div__img" src="./estilos/imagenes/queen.png" alt="Princesa Zoe">
+            </div>
+            <div class="main__section3__div">
+                <p class="main__section3__div__p">También necesitamos saber tu edad y si gestionas dinero actualmente.</p>
+                <form class="main__section3__div__form">
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label"></label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ej: tengo 23 años">
+                        <div id="emailHelp" class="form-text"></div>
+                    </div>
+                </form>
+                <img class="main__section3__div__img" src="./estilos/imagenes/king.png" alt="Rey Midas">
+                <div class="main__section3__div">
+                    <label class="main__section3__div__label" for="text">Sí, tengo ingresos</label>
+                    <input type="checkbox">
+                    <label class="main__section3__div__label" for="text">No, no tengo ingresos</label>
+                    <input type="checkbox">
+                </div>
+            </div>
+            <div class="main__section3__div">
+                <p class="main__section3__div__p">Por último, déjanos tu email así te llega el comunicado real si quedas seleccionado.</p>
+                <form class="main__section3__div__form">
+                    <div class="mb-3">
+                        <label class="form-label main__section3__div__label" for="exampleInputEmail1"></label>
+                        <input type="email" class="form-control"  type="email" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder=" Ej: nombre@ejemplo.com.ar">
+                        <div id="emailHelp" class="form-text"></div>
+                    </div>
+                </form>
+                <img class="main__section3__div__img" src="./estilos/imagenes/queen.png" alt="Princesa Zoe">
+                <div>
+                    <p class="main__section3__div__p">En abril te llegará la carta para saber si fuiste seleccionado o continuas en  la lista. Es un placer conocerte!</p>
+                    <img class="main__section3__div__img" src="./estilos/imagenes/king.png" alt="Rey Midas">
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- Footer-->
+    <footer class="main__footer">
+        <article class="main__footer__article">
+            <a class="main__footer__article__a" href="./pages/tyc.html">Términos y Condiciones</a>
+        </article>
+        <article class="main__footer__article">
+            <h3 class="main__footer__article__h3">MIDAS® 2022 </h3>
+        </article>
+        <article class="main__footer__article">
+        <a class="main__footer__article__a" href="./pages/pdp.html">Política de Privacidad</a>
+        </article>
+    </footer>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+</body>
+</html>
