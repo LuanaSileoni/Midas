@@ -4,8 +4,17 @@
     display: grid;
     .main__section3__div{
         display: grid;
-        .main__section3__div__p{
-            color: $color-blanco;
+        .main__section3__div__p__midas{
+            color: $color-negro;
+            background-color: $color-amarillo;
+            border-radius: 5px;
+            padding: 5px;
+        }
+        .main__section3__div__p__zoe{
+            color: $color-negro;
+            background-color: $color-azul;
+            border-radius: 5px;
+            padding: 5px;
         }
         .main__section3__div__img{
             width: 10%;

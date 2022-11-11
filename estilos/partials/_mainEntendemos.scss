@@ -11,10 +11,13 @@
         display: grid;
         .main__section2__div__img{
             width: 15%;
+            border-radius: 30px;
         }
         .main__section2__div__p{
             font-size: 'Roboto';
-            color: $color-blanco;
+            color: $color-negro;
+            background-color: $color-azul;
+            border-radius: 5px;
         }
     }
 }
